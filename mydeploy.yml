@@ -16,6 +16,13 @@ spec:
      spec:
        containers:
        - name: myjavaapp-container
-         image: nbktechnosys/myjavaapp19jun22:2
+         image: nbktechnosys/myjavaapp19jun22:2 
+         resources:
+            limits:
+              memory: 512Mi
+              cpu: "1"
+            requests:
+              memory: 256Mi
+              cpu: "0.2" 
          ports:
          - containerPort: 8080
