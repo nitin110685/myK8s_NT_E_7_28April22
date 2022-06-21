@@ -16,7 +16,7 @@ spec:
      spec:
        containers:
        - name: myjavaapp-container
-         image: nbktechnosys/myjavaapp19jun22:2 
+         image: nbktechnosys/myjavaapp21jun22:3 
          resources:
             limits:
               memory: 512Mi
